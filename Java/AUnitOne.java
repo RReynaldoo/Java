@@ -9,7 +9,7 @@ public class AUnitOne
 //-----------------------------------------------------------------------------
         JOptionPane.showMessageDialog(null, "Buenas tardes"); //Line that shows GUI
         /*
-         Null = output message box should be placed in the center of the screen
+         Null = output message box will be placed in the center of the screen
          JAJAJAJAJA = literal string that is displayed.
          */
 //---------------------------------------
