@@ -37,7 +37,7 @@ public class BbDialogBox {
 		 * Additionally: by default input is shown as question and output as information
 		 */
 //----------------------------------------------------------------------------------------------
-// Converting from strings to int and double
+// Converting from strings to int and double (can also be done with float and long)
 		String integer,doubler;
 		int newInt;
 		double newDoub;

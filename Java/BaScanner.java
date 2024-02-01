@@ -25,9 +25,9 @@ public static void main(String[]whatever) {
 		int month;
 		
 		System.out.println("Day :");
-		day = NameOFThisObject.nextLine();	//Retrieves the next whole line as a sting
+		day = NameOFThisObject.nextLine();	//Retrieves the next whole line as a string
 		System.out.println("Month: ");
-		month = NameOFThisObject.nextInt();	//Retrieves the next whole line as intgers
+		month = NameOFThisObject.nextInt();	//Retrieves the next whole line as integers
 		System.out.println("\n Day is " + day + " Month is " + month);
 		
 		*/
