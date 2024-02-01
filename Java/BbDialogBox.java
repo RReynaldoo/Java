@@ -11,7 +11,7 @@ public class BbDialogBox {
 		JOptionPane.showMessageDialog(null, "So " +name+ " huh?");
 		
 //---------------------------------------------------------------------------------------------
-//		Specific aspects (also applies to showMessageDialog)
+//		Specific aspects (also applies to showMessageDialog and showConfirmDialog)
 		
 		String y;
 		
@@ -57,6 +57,18 @@ public class BbDialogBox {
 		 *	We assign the value of doubler to newdoub and then (Optional) divide it inmediatly by 3
 		 */
 		JOptionPane.showMessageDialog(null, integer + " multiplied by two is: " +newInt+ "\n" +doubler+ " Divided by three is: " + newDoub);
+		
+//--------------------------------------------------------------------------------------------------
+		//Confinm dialog box has options and according with them we can manage what to do next with int and bool variables
+		
+		int store;
+		boolean selection;
+		
+		store = JOptionPane.showConfirmDialog(null, "Te gusta el anime?");		//The value of the selection is stored
+		selection = (store == JOptionPane.OK_OPTION);							//The selection and a option is compared
+		
+		JOptionPane.showMessageDialog(null, "So in the end your answer is "+ selection);	//We can see here if its true or false
+		
 		
 		
 		
