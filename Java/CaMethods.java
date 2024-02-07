@@ -1,29 +1,14 @@
 import javax.swing.JOptionPane;
 
-public class CaMethods {
+public class coasa {
 	public static void main(String []jaja) {	
-	
+		
 		showMessage();//normal name used within the same class
-		txt.showMessage();//whole name, usually used when calling from another class
+		coasa.showMessage();//whole name, usually used when calling from another class
+//-----------------------------------------------------
 		
 		
-//------------------------------------------------------
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 //-----------------------------------------------------This method is called
 	
@@ -42,5 +27,13 @@ public class CaMethods {
 		
 		JOptionPane.showMessageDialog(null, something);
 
+	}
+	
+	public static void calculateSquareRoot(int value) {
+		 int x;
+		 x = value * value;
+		 
+		 System.out.println(x);
+		
 	}
 }
