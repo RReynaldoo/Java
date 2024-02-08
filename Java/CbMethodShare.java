@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class CbMethods {
+public class CbMethodArgShare {
 	public static void main(String []jaja) {	
 		
 		String x,t;
@@ -16,7 +16,7 @@ public class CbMethods {
 	}
 
 	
-	public static void operation(int yaya,int times){//Here it receives it (Must specify data type for each)
+	public static void operation(int yaya,int times){//Here it receives it (Must specify data type for each one)
 		
 		yaya = yaya * times;
 		JOptionPane.showMessageDialog(null,yaya);
