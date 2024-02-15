@@ -32,10 +32,7 @@ public static void main(String[]whatever) {
 		
 		*/
 		
-		/*List of commands for next()
-		 * 
-		 */
-		
+		//There is a list of commands for "next()"
 //-------------------------------------------------------------------------------------------
 		// When using nextLine after any other next() method use this peace of code to avoid skipping it
 		//Any next() will keep Enter in storage and the next nextLine() will be skipped, thats why this solution.

@@ -9,7 +9,7 @@ public class qwerty {
 		
 	}
 //-------------------------------------------------------------
-	public static String firstQuestion() {
+	public static String firstQuestion() {//String, int, double etc at the top is the type of the return value, which is replacing void (Used when nothing is returned)
 		String x;
 		Scanner input = new Scanner(System.in);
 		
@@ -29,7 +29,6 @@ public class qwerty {
 		return x;
 	}
 	
-	//String, int, double etc at the top is the type of the return value, which is replacing void (Used when nothing is returned)
 	//You gotta store the return value in a variable of the same kind.
 	//Is not recommended to return multiple times, instead, just return in a array or similar.
 	
