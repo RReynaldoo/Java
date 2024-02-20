@@ -1,11 +1,11 @@
 class HelloWorld {
     public static void main(String[] args) {
         //This is basically have several methods with the same name, but each of them will be called based on what is send to them.
-        //Example with quantity
+       
         int x = 12;
         int y = 23;
         double z = 12.2;
-        
+         //Example with quantity
         displayNumber(x); //Executes the one with only one variable in its parameter
         displayNumber(x,y);//Executes the one with two variables in its parameter
         

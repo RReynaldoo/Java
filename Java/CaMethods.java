@@ -12,9 +12,9 @@ public class CaMethods {
 	
 	public static void showMessage() {
 //public means that this method is accessible for other classes| There are also private and protected
-//static that doesn't require an object
+//static means that doesn't require an object
 /*void means that the method doesn't return any value to the method that called it. As shown below, this
-		just executes code, but do not send anything back*/
+just executes code, but do not send anything back*/
 //Parameter: data item received by a method
 		
 		String something =
