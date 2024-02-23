@@ -6,15 +6,15 @@
 	}
 	
 	
-	//public/private/static/nonstatic are appliable to classes/methods/variables
+	//public/private/static/nonstatic are applicable to classes/methods/variables
 	public class Smth
 	//Public: means that this class is accesible for other methods outside this class.
 	//Private: means that no other classes can access the field’s values, and only methods of the same class are allowed 
 	
 	{
 	//Data field: variables you declare within a class but outside of any method (commonly privated)
-    int num = 5; //Nonstatic: all methods/classes share the same variable
-	static int num1; //Static: each method/class has its own copy of this variable
+    private int num = 5; //Nonstatic: all methods/classes share the same variable
+	private static int num1; //Static: each method/class has its own copy of this variable
 	
 	
 		public void aMethod()
