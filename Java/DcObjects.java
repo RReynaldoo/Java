@@ -1,8 +1,11 @@
 	public static void main(String[]whatever)
 	{
+		//Scanner
 		Scanner input = new Scanner(System.in);
 		String name;
 		
+
+		//Declaration of objects
 		Employee pilot = new Employee();
 		Employee driver = new Employee();
 		/*********************************************************
@@ -13,15 +16,19 @@
 		 */
 		//**********************************************************
 		
-		System.out.println("Cual es tu nombre piloto? ");
-		name = input.nextLine();
-		pilot.setName(name);
-		System.out.println("Y cual es el tuyo conductor? ");
-		name = input.nextLine();
-		driver.setName(name);
+		System.out.println("Cual es tu nombre piloto? ");//Ask
+		name = input.nextLine();					     //Get name
+		pilot.setName(name);							 //Save name in object
+		//***********************
+		//First the name of the object
+		//Then the method to use
+		//***********************
+
+		System.out.println("Y cual es el tuyo conductor? ");		//Ask
+		name = input.nextLine();					     			//Get name
+		driver.setName(name);										//Save name in object
 		
 		System.out.println("El piloto se llama " +pilot.getName()+ "\nY el conductor se llama " +driver.getName() );
-		
 		
 	}
 	
@@ -33,11 +40,11 @@
 		private String firstName;
 		private String lastName;
 		
-		public void setName(String name) 
+		public void setName(String name) //Stores name in object
 		{
 			firstName = name;
 		}
-		public String getName()
+		public String getName()//Retrieves the name of an abject
 		{
 			return firstName;
 		}
@@ -47,7 +54,7 @@
 }
 //-------------------------------------------------------------------------------------------
 //This is how the data is stored, each object has his own copy of the method and variables they are using, 
-//threfore, the values, in a way of speaking, are being stored in the objects.
+//threfore, the values are being stored in the objects.
 
 //pilot:
 //firstName: "John"

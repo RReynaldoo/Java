@@ -1,6 +1,8 @@
-	//Instance methods and the variables that they have accesss to conform objects these methods (Object methods)
-/*
-* classes provide a way to classify and organize related methods and variables, and to define the properties and 
+/* Nonstatic methods/Instance methods are for objects, which are used for specific functionalities (instance variables too)
+ * Static methods are used for general functionalities that affect all objects alike
+ +
+ +
+ * classes provide a way to classify and organize related methods and variables, and to define the properties and 
  * behaviors of objects, but they are not part of the objects themselves.
  * 
  * Creating instance methods in a class means defining methods within the class that can be used by objects created 
@@ -13,21 +15,12 @@
  * accessible to the object. However, it is common to use methods from the same class when creating objects, as this 
  * helps to maintain a clear and organized code structure.
  *
- * Nonstatic methods are for objects, which are used for specific functionalities
- * Static methods are used for general functionalities that affect all objects alike
  * 
  * To help you determine whether a data field should be static, you can ask yourself how many times it occurs. If it occurs once 
  * per class, it is static, but if it occurs once per object, it is not static
  */
 //-----------------------------------------------------------------------------------------------------------------------------------
-	
-	
-	public static void main(String[] whatever) 
-	{
-		
-	}
-	
-	//Here I'll place all methods related to employees
+//Here I'll place all methods related to employees
 	public class Employee
 	{
 		//Data field
@@ -36,6 +29,7 @@
 		//Data field
 		
 //------------------------------------------------
+//Nonstatic Methods usable for objects
 		
 		public int getEmpNum()
 		{
@@ -56,13 +50,8 @@
 		}	
 }
 
-
-
-
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 /*
- * Objects are instances of a class, which is a blueprint that defines the properties and behaviors of the object.
- *
  * When you create an object from a class, the object will have its own copy of the instance variables and can execute its own instance methods, as defined by the class.
  * 
  * Instance methods are methods that belong to an object of a class. They can access and modify the instance variables of a class, which are variables that are unique to each object.

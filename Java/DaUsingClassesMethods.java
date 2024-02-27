@@ -13,10 +13,8 @@
 	
 	{
 	//Data field: variables you declare within a class but outside of any method (commonly privated)
-    private int num = 5; //Nonstatic: all methods/classes share the same variable (Nonstatic methods can access static and nonstatic variables and methods)
-	private static int num1; //Static: each method/class has its own copy of this variable, only static methods can access these.
-	//								   (Static methods can only access static variables and methods)
-	
+    private static int num = 5; //Static: all methods/classes share the same variable. Accesible by static and nonstatic 
+	private int num1; //Nonstatic: each method/class has its own copy of this variable accesible for nonstatic alone
 	
 		//Methods are often static.
 		public void aMethod()
