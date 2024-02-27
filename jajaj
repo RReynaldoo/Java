@@ -1,0 +1,30 @@
+	public static void main(String[]whatever)
+	{
+		Employee pilot = new Employee();
+		
+		/*********************************************************
+		 * Employee: data type and also the class name
+		 * empInfo: name of the object
+		 * new: is allocating a new, unused portion of computer memory
+		 * Employee(): constructor >> a method that establishes an object.
+		 */
+		//**********************************************************
+		
+		
+	}
+		
+	public class Employee
+	{
+		
+		public void getInformation()
+		{
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+}
