@@ -7,7 +7,7 @@
  * from that class. These instance methods can be used to perform specific actions or behaviors that are unique to each object,
  * that is, use the same method several times without altering the result in other calls.
  * 
- * A static method would 
+ * A static method would change the value of the static variables, thus affenting the other static methods.
  * 
  * So, it is possible to create objects that have methods from different classes, as long as those methods are 
  * accessible to the object. However, it is common to use methods from the same class when creating objects, as this 
