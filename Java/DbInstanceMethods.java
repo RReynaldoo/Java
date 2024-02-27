@@ -15,6 +15,9 @@
  *
  * Nonstatic methods are for objects, which are used for specific functionalities
  * Static methods are used for general functionalities that affect all objects alike
+ * 
+ * To help you determine whether a data field should be static, you can ask yourself how many times it occurs. If it occurs once 
+ * per class, it is static, but if it occurs once per object, it is not static
  */
 //-----------------------------------------------------------------------------------------------------------------------------------
 	
@@ -24,10 +27,33 @@
 		
 	}
 	
+	//Here I'll place all methods related to employees
 	public class Employee
 	{
+		//Data field
+		private int empNum;
+		private String empFirstName;
+		//Data field
 		
-	}
+//------------------------------------------------
+		
+		public int getEmpNum()
+		{
+			return empNum;
+		}	
+		public void setEmpNum(int emp)
+		{
+			empNum = emp;
+		}
+//********************************************
+		public String getFirstName()
+		{
+			return empFirstName;
+		}	
+		public void getFirstName(String name)
+		{
+			empFirstName = name;
+		}	
 }
 
 
