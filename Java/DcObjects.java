@@ -1,4 +1,6 @@
 	public static void main(String[]whatever)
+	//Classes to objects are basically datatypes.
+	//Objects can be processed as int or doubles are, being send between methods, using their class as datatypes in the parameters, etc.
 	{
 		//Scanner
 		Scanner input = new Scanner(System.in);
