@@ -23,6 +23,7 @@
 		//First the name of the object
 		//Then the method to use
 		//***********************
+		//Variables should only be modified by methods and not directly.
 
 		System.out.println("Y cual es el tuyo conductor? ");		//Ask
 		name = input.nextLine();					     			//Get name
