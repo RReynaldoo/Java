@@ -33,4 +33,27 @@
                 " batting average is " + battingAverage +
                 " There are " + countOfPlayers + " players");
     }
+    //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    //Common methods in the Math class:
+    
+    //Math.pi
+    abs(x)
+    acos(x)
+    asin(x)
+    atan(x)
+    atan2(x, y)
+    ceil(x)
+    cos(x)
+    exp(x)
+    floor(x)
+    log(x)
+    max(x, y)
+    min(x, y)
+    pow(x, y)
+    random()
+    rint(x)
+    round(x)
+    sin(x)
+    sqrt(x)
+    tan(x)
 }
