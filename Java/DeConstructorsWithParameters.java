@@ -23,9 +23,17 @@ public class Main{
 		public String getValue() {
 			return str;
 		}
-		
-		
-		
+//---------------------------------------------------------------------------------------------------------------------------------
+		//Constructors are usually public:
+		public Employee(){
+		}
+		//However, they can be also private, protected, etc. If not specified then it will be package-private, which means that the constructor is accessible only within the 
+		//same package.
+		Employee(){
+		}
+
+
+
 	}
 	
 	
