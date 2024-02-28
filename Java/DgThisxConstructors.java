@@ -16,7 +16,7 @@
 		
 	}
     //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    //Example of instance methods using static variables in a useful way.
+    //Example of instance methods using static variables in a useful way. You can also use static CONSTANTS for similar porpuses
     public class BaseballPlayer {
     private static int countOfPlayers = 0;
     private int number;
