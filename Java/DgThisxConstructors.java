@@ -9,12 +9,19 @@
 		
 		Order(double doble, int integer){
 			this(integer,doble); // This sends this values to the "principal constructor". This is used to reorder the values to later save them in order in case they were
-								//  inputed in other order.
+								//  inputed different order.
 			
 		}
 
 		
 	}
+
+
+
+
+
+
+
     //---------------------------------------------------------EXTRAS-------------------------------------------------------------------------------------------------------------------
     //Example of instance methods using static variables in a useful way. You can also use static CONSTANTS for similar porpuses
     public class BaseballPlayer {
@@ -61,3 +68,23 @@
      import java.time *;
      java.time.LocalDate
      //java.time is the package | LocalDate is the class we are calling
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public static void main(String[]whatever) {
+	//	Employee Jose = new Employee();			//Here this is initialized with a constructor
+	
+		LocalDate today = LocalDate.now();		//This is initialized with a static method = Class.method		||  	Assigns today's value
+		LocalDate ptkCeremony = LocalDate.of(2024,5,11);	//Their constructors are private, thus, no accessible	||	Assigns the value we input
+		
+		//These return the values in integers
+		today.getYear();
+		today.getMonthValue();
+		today.getDayOfMonth();
+		
+		//These return the String of day and month.
+		today.getMonth();
+		today.getDayOfWeek();
+		
+		/* Useful methods
+		 *  plusDays(), plusWeeks(), plusMonths(), plusYears(), minusDays(), minusWeeks(), minusMonths(), and minusYears()
+		 */
+	}
