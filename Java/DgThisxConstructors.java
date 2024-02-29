@@ -59,3 +59,5 @@
      //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      //To import all classes of a package you can use an astherisc after the package:
      import java.time *;
+     java.time.LocalDate
+     //java.time is the package | LocalDate is the class we are calling
