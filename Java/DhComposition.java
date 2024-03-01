@@ -7,7 +7,7 @@
 
     NameOfTheClass NameOfObject.
 
-    We are creating a object 1 from the blueprint that is the class. Is like, each time we create a class, we are creating a datatype, and each method we initiate from there
+    We are creating a object 1 from the blueprint that is the class. Is like, each time we create a class, we are creating a datatype, and each object we initiate from there
     will have access to his methods and variables.
  */
 
@@ -36,7 +36,7 @@ public static class Status{
 	}
 	
 	public static class Phone{
-		private Status status;		//First Object is used
+		private Status status;		//First Object is used as a variable for the values it stores inside.
 		private String brand;
 		
 		public Phone(Status status, String brand) {	//We get our values and we store the data
@@ -67,7 +67,7 @@ public static class Status{
 		private String brand;
 		
 		public Phone(String usage, boolean works, String brand) {	//Receive the data
-			status = new Status(usage,works);	//We call the constructor of the variable(Object), and store the data with it. In parentesis we specify which variables will be stored
+			status = new Status(usage,works);	//We call the constructor of the variable(Object), and store the data within it. In parentesis we specify which variables will be stored
 			this.brand = brand;	
 		}
     }
