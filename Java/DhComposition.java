@@ -24,6 +24,7 @@
 //  Status(Object) = String usage, boolean works
 //***************************************************** */
 
+//----------------------------------------------------------------------------------------------------------------------------------
 public static class Status{
 		private String usage;
 		private boolean works;
@@ -49,27 +50,27 @@ public static class Status{
     Phone phone = new Phone(phoneStatus, "Samsung");	//Then we send the remaining data
 }
 
-//-------------------------------------------Second version----------------------------------------------------------------
+//-------------------------------------------Second version----------------------------------------------------------------BOOK VERSION
 
 	public static class Status{
 		private String usage;
 		private boolean works;
 		
-		public Status(String usage, boolean works){
+		public Status(String usage, boolean works){	//Status object is stated
 			this.usage = usage;
 			this.works = works;
 		}	
 	}
 
 	public static class Phone{
-		private Status status;
+		private Status status;	//We use it to store data in less code quatinty
 		private String brand;
 		
-		public Phone(String usage, boolean works, String brand) {
-			status = new Status(usage,works);
-			this.brand = brand;
+		public Phone(String usage, boolean works, String brand) {	//Receive the data
+			status = new Status(usage,works);	//We call the constructor of the variable(Object), and store the data with it. In parentesis we specify which variables will be stored
+			this.brand = brand;	
 		}
     }
 
     public static void main(String[] args) {
-    Phone phone = new Phone("New",true, "Samsung");
+    Phone phone = new Phone("New",true, "Samsung");	//We send all data
