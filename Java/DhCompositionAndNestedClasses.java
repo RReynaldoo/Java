@@ -74,3 +74,29 @@ public static class Status{
 
     public static void main(String[] args) {
     Phone phone = new Phone("New",true, "Samsung");	//We send all data
+
+//-----------------------------NESTED CLASSES--------------------------------------------------------------------------------------------------
+
+//They can be nested inside of the class that is using them to be easier to understand, but it will make it usable only for the class where it is nested
+//So unless you plan to use it only for that class in particular, is better to leave it outside.
+
+
+	public static class Phone{
+		private Status status;	//We use it to store data in less code quatinty
+		private String brand;
+		
+		public Phone(String usage, boolean works, String brand) {	//Receive the data
+			status = new Status(usage,works);	//We call the constructor of the variable(Object), and store the data within it. In parentesis we specify which variables will be stored
+			this.brand = brand;	
+		}
+		
+	public static class Status{
+		private String usage;
+		private boolean works;
+		
+		public Status(String usage, boolean works){	//Status object is stated
+			this.usage = usage;
+			this.works = works;
+		}	
+	}
+}
