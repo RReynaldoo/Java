@@ -13,7 +13,7 @@
 		/*********************************************************
 		 * Employee: data type and also the class name
 		 * pilot/driver: objects
-		 * new: is allocating a new, unused portion of computer memory
+		 * new: is allocating an unused portion of computer memory || Calls the constuctor
 		 * Employee(): constructor >> a method that establishes an object.
 		 */
 		//**********************************************************
