@@ -10,6 +10,7 @@
 		//Declaration of objects
 		Employee pilot = new Employee();
 		Employee driver = new Employee();
+		Employee highness = getData();
 		/*********************************************************
 		 * Employee: data type and also the class name
 		 * pilot/driver: objects
