@@ -60,6 +60,9 @@ public class haha {
 	 	String str = Float.toString(f); //Convert float to String
 //Or just concatenate.
 		str = d + "";
+
+//To string
+	d = Double.parseDouble(str);
 	}
 
 }
