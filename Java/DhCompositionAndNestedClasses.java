@@ -29,6 +29,7 @@ public static class Status{
 		private String usage;
 		private boolean works;
 		
+		//Constructor
 		public Status(String usage, boolean works){			//First object "Status"
 			this.usage = usage;
 			this.works = works;
