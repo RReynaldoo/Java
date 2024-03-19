@@ -30,4 +30,17 @@ public class IFelse {
  */
 		
 //Always use the {} to surround the statements in if and else. Is common and avoids errors.
+
+//----------------------------------------THEY CAN BE NESTED--------------------------------------------------------
+
+		if(value1 == value2) {
+			if(value2 > 1)
+				System.out.println();
+			else
+				System.out.println();
+		}
+		else
+			System.out.println();
 	}
+
+
