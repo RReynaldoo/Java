@@ -1,3 +1,5 @@
+//
+public class IFelse {
 	public static void main(String[]whatever) {
 		int value1 = 4;
 		int value2 = 5;
@@ -27,6 +29,5 @@
  * boolean value.
  */
 		
+//Always use the {} to surround the statements in if and else. Is common and avoids errors.
 	}
-
-}
