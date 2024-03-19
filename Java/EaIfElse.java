@@ -5,6 +5,9 @@
 		if(value1 == value2) {
 			System.out.println("");
 		}
+		else {
+			System.out.println("");
+		}
 //---You can also:
 		boolean x = (value2 > value1);
 		
@@ -17,5 +20,13 @@
 			System.out.println("They have the same age");
 		}
 		
+/*
+ * Most often you use a comparison that includes one of six relational operators 
+ * (==, <, >, <=, >=, or !=). However, you can use any expression that evaluates as 
+ * true or false, such as a simple boolean variable or a call to a method that returns a 
+ * boolean value.
+ */
+		
 	}
+
 }
