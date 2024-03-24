@@ -42,5 +42,15 @@ public class IFelse {
 		else
 			System.out.println();
 	}
+//--------------------------------------------AND OR ------------------------------------------------------------------
+
+			if (x > 10 && y > 10)		//&& for AND
+										// || for or
 
 
+			if ((x > 10) && (y > 10))	// Another format
+//----------------------------------------------------------------------------------------------------------------
+/*
+Never use "if" statements one after another without "else" statement. Always make sure to add an alternative to an "if", if not, then the next "if" is gonna execute 
+regardless of the result of the last one.
+*/
