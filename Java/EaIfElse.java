@@ -53,6 +53,9 @@ public class IFelse {
 
 
 			if ((x > 10) && (y > 10))	// Another format
+
+			if ((x > 10 && y > 10) || (x < 10 && y < 10))	//You can have as many as you want.
+			if ((x > 10 && y > 10) || x > 9)	//<<<<<<<<<<<<< When stacking remember to use the () priority to assure some values before others.
 //----------------------------------------------------------------------------------------------------------------
 /*
 Never use "if" statements one after another without "else" statement. Always make sure to add an alternative to an "if", if not, then the next "if" is gonna execute 
