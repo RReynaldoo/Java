@@ -31,6 +31,10 @@ public class IFelse {
 		
 //Always use the {} to surround the statements in if and else. Is common and avoids errors.
 
+//---------------------
+	if (!(a > b))		//<<<<<<< "!"" is to negate the result, if it were to give "true", "!" changes it for "false"
+//---------------------
+
 //----------------------------------------THEY CAN BE NESTED--------------------------------------------------------
 
 		if(value1 == value2) {
