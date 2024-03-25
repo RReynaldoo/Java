@@ -1,4 +1,4 @@
-//******************************************Tests that return true or false, used for desicions and conditions**************************************************************** */
+//******************************************Tests that return true or false or numeric values, used for desicions and conditions**************************************************************** */
 
 //For str and chr
 Character.isUpperCase(ch);  //Checks if is uppercase
@@ -7,6 +7,8 @@ Character.isLowerCase(ch2); //Checks if is lowercase
 Character.toLowerCase(ch2); //Lowercases it
 
 Character.length()          //To get the length of a string starting at 0. (more efficient than comparing and better to identify if the user didnt type any input)
+Character.indexOf()         //Gets the position of a letter or number in a string starting at 0. If it is not found it gives -1 back.
+Character.Chargoeshere
 
 //All
 Character.getNumericValue('5'); //Get numeric value from what is introduced
