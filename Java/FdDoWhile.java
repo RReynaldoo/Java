@@ -9,6 +9,8 @@
 		}
 		while(x > 12);	//<<< This has to be true in order to keep the loop
 
+		while((x > 12)&&(x > 12))//Can also be done
+		
 		//Can be nested as well as for loops
 
 		//***********************************************Optimizations**************************************** */
