@@ -9,7 +9,7 @@ public class haha {
  
         // Automatic type conversion
         // Integer to long type
-        long l = i;
+        long l1 = i;
  
         // Automatic type conversion
         // long to float type
