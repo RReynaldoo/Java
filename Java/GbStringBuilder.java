@@ -1,6 +1,5 @@
 //StringBuilder and StringBuffer do the same but:
 
-<<<<<<< HEAD
 //Builder is more efficient
 //Buffer if thread safe
 
