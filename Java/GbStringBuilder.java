@@ -26,6 +26,7 @@
 		name.setLength(33);						//sets its length (Helps save memory)
 		
 		//To compare two stringBuilders you first convert them to strings and then compare:
+		//Use .toString to use the string methods
 		
 		name.toString().equals(name2.toString());	//Like this to make it quick
 		
