@@ -9,3 +9,5 @@
 		nums = new int[20];	//specify size
 		
 		double[] nams = new double[20];	//declare and specify at the same time
+		nams[0] = 12;					//Assigns a value to index 0
+		System.out.println(nams[0]);	//Prints the value in index 0
