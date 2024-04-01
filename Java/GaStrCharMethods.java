@@ -22,13 +22,13 @@ x = Integer/Double/etc.toString()        //convert their objects to strings
 
 boolean x = Character.regionMatches(IntStart,secondString,intStart2,IntEnd) //the position at which to start in the calling String, the other String being compared, the 
                                                                             //position to start in the other String, and the length of the comparison
-
+string.contains(astring)//allows you to determine whether one String contains another
 
 
 //--------------------------To compare strings use this in the argument of the condition ex: if(here)-------------------------------------
 
-aString.equalsIgnoreCase(String)        //Evaluates taking into consideration the case of the letters
-aString.equeals(aString);               //Evaluates regardless of the case of the letters
+String.equalsIgnoreCase(String2)        //Evaluates taking into consideration the case of the letters
+String.equeals(atring2);               //Evaluates regardless of the case of the letters
 
 
 
@@ -42,6 +42,8 @@ String Fred = "";       //Sets it as empty. It would be equivalent to int x = 0;
 
 
 //----------------------------------------------------------Example of usage of these methods to get a segment of a string--------------------------------------------------------------------------------
+string.substring(IntStart,IntEnd)//Extracts a segment of a string
+
 
         while (x < name.length()) {
             c = name.charAt(x);
