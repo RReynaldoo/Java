@@ -5,6 +5,10 @@ Character.isUpperCase(ch);  //Checks if is uppercase
 Character.toUpperCase(ch);  //Uppercases it 
 Character.isLowerCase(ch2); //Checks if is lowercase
 Character.toLowerCase(ch2); //Lowercases it
+Character.getNumericValue(); //Get numeric value from what is introduced
+Character.isLetter();        //Checks if it is a letter
+Character.isLetterOrDigit(); //Checks if its letter or digit
+Character.isWhitespace();    //Checks if it is whitespace
 
 Character.length()          //To get the length of a string starting at 0. (more efficient than comparing and better to identify if the user didnt type any input)
 Character.indexOf()         //determines whether a specific character occurs within a String. If it does, the method returns the position of the character
@@ -19,21 +23,22 @@ x = Integer/Double/etc.toString()        //convert their objects to strings
 boolean x = Character.regionMatches(IntStart,secondString,intStart2,IntEnd) //the position at which to start in the calling String, the other String being compared, the 
                                                                             //position to start in the other String, and the length of the comparison
 
-//Applied to All
-Character.getNumericValue('5'); //Get numeric value from what is introduced
-Character.isLetter('z');        //Checks if it is a letter
-Character.isLetterOrDigit('%'); //Checks if its letter or digit
-Character.isWhitespace(' ');    //Checks if it is whitespace
+
 
 //--------------------------To compare strings use this in the argument of the condition ex: if(here)-------------------------------------
 
 aString.equalsIgnoreCase(String)        //Evaluates taking into consideration the case of the letters
 aString.equeals(aString);               //Evaluates regardless of the case of the letters
 
+
+
 //--------------------------Declaring strings-------------------------------------
 
 String Fred;            //same as setting it null, the string lacks content so it cant be compared but can be use. similar to int x;
 String Fred = "";       //Sets it as empty. It would be equivalent to int x = 0;
+
+
+
 
 
 //----------------------------------------------------------Example of usage of these methods to get a segment of a string--------------------------------------------------------------------------------
