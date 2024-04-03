@@ -1,6 +1,6 @@
 //******************************************Tests that return true or false or numeric values, used for desicions and conditions**************************************************************** */
 
-//For str and chr
+//For chr
 Character.isUpperCase(ch);  //Checks if is uppercase
 Character.toUpperCase(ch);  //Uppercases it 
 Character.isLowerCase(ch2); //Checks if is lowercase
@@ -37,7 +37,7 @@ String.equeals(atring2);               //Evaluates regardless of the case of the
 String Fred;            //same as setting it null, the string lacks content so it cant be compared but can be use. similar to int x;
 String Fred = "";       //Sets it as empty. It would be equivalent to int x = 0;
 
-
+int digit = Character.getNumericValue(strValues.charAt(i))  //First method assigns an int to the variable, the second finds it(normally used together)
 
 
 
