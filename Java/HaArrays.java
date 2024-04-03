@@ -1,6 +1,6 @@
 //An array is a named list of data items that all have the same data type. 
 //Each data item is an element of the array
-
+//	A LIST OF ARRAYS IS A GROUP OF VARIABLES OR OBJECTS TO BE SIMPLE.
 //Declaration:
 
 		//You must always specify the size. In java.util there is an array list that lets you modify the size
@@ -25,28 +25,12 @@
 		System.out.println(x);
 		}
 
-//------------------------------------------
+//------------------------------------------CREATING OBJECTS------------------------------------
 
-
-public class Main {
-	
-	public static void main(String[]a) {
-	
-	int[] array = {1,2,3,4,5,6};
-	
-	for (int x : array) {
-		System.out.println(x);
-	}
-	
-	}
-	
-	public static class students{
-		private int id;
-		private int num;
+		Students[] psychology = new Students[12];	//This statement creates 12 objects
 		
-		students(){
-			id = 0;
-			num = 0;
+		for(int x = 0 ; x < psychology.length; x++) {				//Constructs the objects
+			psychology[x] = new Students();
 		}
-	}
-}
+		
+		int x = psychology.length;//Used to retrive the number of objects in an array
