@@ -28,3 +28,16 @@ public static void bubbleSort(Employee[] array) {
                 array[b + 1] = temp;
             }
 }
+//-------------------------------------------------------------------------------------------------------------------------------------
+//The insertion sort (I need an explanation, I dont get thos)
+int[] someNums = {90, 85, 65, 95, 75};
+int a, temp;
+for (a = 1; a < someNums.length; a++) {
+    temp = someNums[a];
+    int b = a - 1;
+    while (b >= 0 && someNums[b] > temp) {
+        someNums[b + 1] = someNums[b];
+        b--;
+    }
+    someNums[b + 1] = temp;
+}
