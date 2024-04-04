@@ -14,4 +14,17 @@
 				}
 			}
 		}
-//----------------------------------------------------
+//----------------------------------ONE CAN ALSO USE THEM AS A METHOD AND SEND AND SORT OBJECT'S DATAFIELDS--------------------------------
+public static void bubbleSort(Employee[] array) {
+    int a, b;
+    Employee temp;
+    int highSubscript = array.length;
+
+    for (a = 0; a < highSubscript; a++)
+        for (b = 0; b < highSubscript - 1; b++)
+            if (array[b].getSalary() > array[b + 1].getSalary()) {
+                temp = array[b];
+                array[b] = array[b + 1];
+                array[b + 1] = temp;
+            }
+}
