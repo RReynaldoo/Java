@@ -52,8 +52,16 @@
 				System.out.println(prices[x]);		//Pints the price in the same position as first one in other array.
 			}
 //-------------------------------------------ARRAY SUBS CAN BE SENT TO METHODS--------------------------------------------------------------
+//The first one passes individual values and the array values remain the same when is used again
+//IN the last one the whole array, its address, is passed to the method, therefore the whole array is modified permanently
+
 		int[] array = {1,2,3,4,5};
 		
 		for (int y = 0; y<5 ; y++) {
-			Class.display(array[y]);
+			Class.display(array[y]);	//	Passes the data per value
 		}
+
+		//------
+		Class.modify(array);	//When passing an array to a method no brackets are needed
+		
+//--------------------------------------------
