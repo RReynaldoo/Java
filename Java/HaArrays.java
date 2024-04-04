@@ -34,3 +34,21 @@
 		}
 		
 		int x = psychology.length;//Used to retrive the number of objects in an array
+
+//-----------------------------------------	USE ARRAYS TO EVALUATE A LIST OF DATA-------------------------------------------------------
+
+ for(int[] x; algo){
+	if(int[x] > MAX){
+		a++;
+	}
+ }
+ //-------------------------------------------USE VARIOUS ARRAY POSITIONS TO SOLVE PROBLEMS---------------------Array match------------------
+ 		final int MAX = 6;
+		int[] validValues = {1,2,4,6,7,8};
+		int[] prices = {122,332,444,6565,777,88};
+		
+		for( int x = 0; x > MAX; x++) {			//Goes over every values
+			if (itemOrdered == validValues[x]) {	//CHecks if the value asked exists
+				System.out.println(prices[x]);		//Pints the price in the same position as first one in other array.
+			}
+		
