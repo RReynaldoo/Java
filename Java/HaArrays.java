@@ -51,4 +51,9 @@
 			if (itemOrdered == validValues[x]) {	//CHecks if the value asked exists
 				System.out.println(prices[x]);		//Pints the price in the same position as first one in other array.
 			}
+//-------------------------------------------ARRAY SUBS CAN BE SENT TO METHODS--------------------------------------------------------------
+		int[] array = {1,2,3,4,5};
 		
+		for (int y = 0; y<5 ; y++) {
+			Class.display(array[y]);
+		}
