@@ -15,3 +15,6 @@
 		
 		dorms[0] = new int[5];
 		dorms[1] = new int[5];
+
+//THIS CAN EXIST AS WELL
+    int[][][] time;         //Which could be int[year][month][day]
