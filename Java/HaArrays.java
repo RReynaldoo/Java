@@ -16,7 +16,7 @@
 		[false,false,false]		//for bool
 		[ , , , , ]				//for char
 
-			//When populating an array you either set all the values or go one by one
+		//When populating an array you either set all the values at first or go one by one
 		int[] array = {1,2,3,4,5,6};	//When initializig and declaring the size its the number of values inserted
 		array[0] = 12;
 
@@ -64,5 +64,6 @@
 		//------
 		Class.modify(array);	//When passing an array to a method no brackets are needed
 		return array;			//same when returning, since you are returning an address (memory address)
+		public static void Receiver(int[] array)	//The header should look like this
 		
 //--------------------------------------------
