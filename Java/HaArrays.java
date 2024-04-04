@@ -63,5 +63,6 @@
 
 		//------
 		Class.modify(array);	//When passing an array to a method no brackets are needed
+		return array;			//same when returning, since you are returning an address (memory address)
 		
 //--------------------------------------------
