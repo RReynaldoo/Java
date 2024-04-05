@@ -41,3 +41,35 @@ for (a = 1; a < someNums.length; a++) {
     }
     someNums[b + 1] = temp;
 }
+
+//******************************************************************************************************************************************/
+//----------------------------------------  SORTING ALGORITHMS WITH Arrays METHODS-----------------------------------------------------------
+int[] intArray = { 2, 4, 7, 10, 13 };
+int key = 10;
+int result = Arrays.binarySearch(intArray, key);     //Searchs the sub position in the array
+System.out.println("Index of " + key + " in intArray: " + result);
+
+Output:
+Index of 10 in intArray: 3
+//-----
+int[] intArray1 = { 1, 2, 3 };
+int[] intArray2 = { 1, 2, 3 };
+boolean isEqual = Arrays.equals(intArray1, intArray2);  //Checks if two arrays are equal (Boolean methods)  //Returns -1 if it is not found
+System.out.println("intArray1 and intArray2 are equal: " + isEqual);
+
+Output:
+intArray1 and intArray2 are equal: true
+//-----
+char[] charArray = new char[5];
+Arrays.fill(charArray, 'x');        //  Fills the array with the value selected
+System.out.println(Arrays.toString(charArray));
+
+Output:
+[x, x, x, x, x]
+//------
+long[] longArray = { 5, 3, 8, 1, 6 };
+Arrays.parallelSort(longArray);     //Same as sort() but more efficient for thousands of values
+System.out.println(Arrays.toString(longArray));
+
+Output:
+[1, 3, 5, 6, 8]
