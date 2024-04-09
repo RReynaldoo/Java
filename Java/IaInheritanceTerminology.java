@@ -1,0 +1,2 @@
+//The main class is the base class, the one that inherits is called derived class
+//Is not the same a class that "has" a class, than a class that "is" of a certain class type, like a class Tree is a Plant
