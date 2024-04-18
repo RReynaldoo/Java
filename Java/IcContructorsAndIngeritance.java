@@ -31,3 +31,17 @@
 			return id;
 		}
 	}
+
+
+
+    //Conditions for whether a subclass requires a constructor or not
+    
+//  1\If neither the superclass nor the subclass has a constructor explicitly defined by the programmer, then both classes will have a default constructor (a constructor with no parameters) provided by the compiler.
+//  2\If the superclass has a default constructor explicitly defined by the programmer, then the subclass does not require a constructor.
+//  3\If the superclass only has nondefault constructors (constructors with parameters), then the subclass must contain a constructor that calls the superclass constructor.
+
+
+
+Answer
+2
+3
