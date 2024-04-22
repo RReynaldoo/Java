@@ -1,3 +1,7 @@
+//Super and this cannot be used together
+//You can use super regardless that you have overriden or not
+//You can execute a method within a method
+
 //With constructors it is used to call the super class' contructor and initialize the subclass' shared variables, instead of doing it all manually.
 //Its should also be the first statement in the constructor, before any other declarations, because remember that the cosntructor of the superclass executes first
 
@@ -74,3 +78,10 @@ public class VIP extends Customer{
         System.out.prinln("Another thing");
     }
 }
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+//Also, here there are two images that show the difference between this and super
+https://drive.google.com/file/d/1WZ8Xykl7ethcXEoScIaphjnDVp-hKqUV/view?usp=sharing
