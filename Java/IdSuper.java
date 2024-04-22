@@ -47,3 +47,30 @@ public class Dog extends Animal {
 
   // ...
 }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+//With methods it is used to access a superclass method
+//This super calls can be placed in any order, contrary to how it works with constructors
+
+public class Customer{
+//...
+
+public void display()
+{
+    System.out.println("One thing")
+}
+}
+//---
+
+
+public class VIP extends Customer{
+    //...
+    @override
+    public void display()
+    {
+        super.display();    //This statement calls the superclass' method "display()"
+        System.out.prinln("Another thing");
+    }
+}
