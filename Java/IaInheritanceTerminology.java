@@ -29,10 +29,9 @@ public static void main(String[]args)
 	}
 //-------------------------------------
 	public static class Professor extends Employee //extends makes Professor receive the methods and datafiels of the 
-													//Employee Superclass, enabling the use of these for this class objects
+													//Employee Superclass, enabling their use for this class' objects
 	{
-		private int classNumber;					//From here on you can add more methods and datafields but they will only be 
-													//accesible for this class' objects
+		private int classNumber;					//Methods created in subClasses will not be accesible for the superClass
 		Professor()
 		{
 			classNumber = 0;

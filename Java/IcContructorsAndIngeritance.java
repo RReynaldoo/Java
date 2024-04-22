@@ -1,5 +1,6 @@
 //When using constructors with SuperClasses and SubClasses, both will execute.
 //Although you cannot override variables, you can modify the value of a variable by changing its value in the subClass
+//If you want a variable of the superClass to be unmutable, then make it FINAL
 
 	public static void main(String[]a)
 	{
@@ -24,7 +25,7 @@
 		SubClass()                          //All this
 		{                                   //executes second
 			System.out.println("HELLOW");   //
-			id = 20;  //<<< therefore this variable changes its value for this kind of objects
+			id = 20;  //<<< therefore this variable changes its value for this kind of objects (But this can be done more effitiently with "super")
 		}                                   //
 		public int getId()
 		{

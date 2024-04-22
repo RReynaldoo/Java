@@ -2,7 +2,7 @@
 							//Variables cannot be overrided, any mention of that in this section is an error
 //This way the subclass will use this new version of the method in case that the original one from the superClass does not fit the subClass purpose
 
-//*If you keep the same name but change the parameters then it will not override but overload, so it will only affect the calls that use that specific parameters*/
+//*If you keep the same name but change the parameters then it will not override but overload, so it will only affect the calls that use that specific parameters
 
 //------------------------------------
 		Employee()
