@@ -1,4 +1,5 @@
 //With constructors it is used to call the super class' contructor and initialize the subclass' shared variables, instead of doing it all manually.
+//Its should also be the first statement in the constructor, before any other declarations, because remember that the cosntructor of the superclass executes first
 
 //<<<<<<<<<<<<<<<<WITH THE CONSTRUCTOR>>>>>>>>>>>>>>>>>>>>>>>
 
