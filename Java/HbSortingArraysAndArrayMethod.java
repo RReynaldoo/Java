@@ -41,7 +41,14 @@ for (a = 1; a < someNums.length; a++) {
     }
     someNums[b + 1] = temp;
 }
-
+//-------------------------------------------------------------------------------------------------------------------------------------
+//Changes the order of the array backwards (It does not sort but changes the order of the array)
+        for (int i = 0; i < array.length / 2; i++) {
+            int temp = array[i];
+            array[i] = array[array.length - 1 - i];
+            array[array.length - 1 - i] = temp;
+        }
+}
 //******************************************************************************************************************************************/
 //----------------------------------------  SORTING ALGORITHMS WITH Arrays METHODS-----------------------------------------------------------
 int[] intArray = { 2, 4, 7, 10, 13 };
