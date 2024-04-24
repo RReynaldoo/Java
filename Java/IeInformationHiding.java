@@ -7,6 +7,5 @@ access to them
 If you want a subClass to have access to their parent's datafields directly you then have to set the datafields as protected, which allows its direct manipulation only by its subclasses
 
 The subclasses that can access this kind of datafields are called fragile because they are easy to "break"
-
 */
 
