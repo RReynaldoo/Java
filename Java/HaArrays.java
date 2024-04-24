@@ -4,6 +4,11 @@
 //Declaration:
 
 		//You must always specify the size. In java.util there is an array list that lets you modify the size
+		//***************************************************************************************************************************************************************************** */
+		//You can initialize an array of 12 size and just enter 5 values, the other ones will store a defautl value of 0 or " ". So in this cases if you want to use only the indexes with values
+		//you will have to have a count varuable that will count how many times the loop of assigning values has been executed, sort them you are set.
+		//If you wanna pass all the remaining values in the end set them all to 999 or above the values your are sorting.
+		//***************************************************************************************************************************************************************************** */
 		
 		int[] nums;			//declare
 		nums = new int[20];	//specify size
