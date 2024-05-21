@@ -4,6 +4,10 @@ import javax.swing.JOptionPane;
 public class haha {
 	public static void main(String[] whatever) {
 
+			String x = "123";
+	int y = Integer.parseInt(x);	//Parse and its variants are used to transform from string to primitive datatypes
+
+
 	//Ascention
 		int i = 100;
  
